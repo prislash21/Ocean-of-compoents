@@ -1,0 +1,146 @@
+.mybodyone {
+  background-color: rgb(21, 205, 114);
+  flex-direction: column;
+  top: 7vh;
+  width: 90vw;
+  position: absolute;
+  z-index: 29;
+
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  max-width: 1170px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  box-shadow: rgba(3, 27, 78, 0.06) 0px 2px 4px !important;
+  border-radius: 6px;
+  transition: all 1.5s ease 0s;
+  color: white;
+  text-align: center;
+  padding: 2px;
+
+}
+
+
+
+
+.mywel {
+
+  padding: 10px;
+  top: 12vh;
+  margin-left: 40px;
+  position: relative;
+  background-color: #0373fc;
+  color: White;
+  justify-content: center;
+  text-align: left;
+  transition: all 1.5s ease 0s;
+
+
+}
+
+div.a {
+  font-size: 60px;
+  color: white;
+
+}
+
+div.b {
+  font-size: 20px;
+  color: white;
+}
+
+
+
+.form-container {
+  position: relative;
+  top: 10vh;
+  left: 25vh;
+  margin-right: 3px;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #000;
+  width: 340px;
+  transition: all 1.5s ease 0s;
+}
+
+
+/* .form-head {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+  padding: 6px;
+
+  background-color: #e8ebe9;
+
+
+} */
+
+
+h5 {
+  background-color: #e8ebe9;
+  text-align: center;
+  padding: 18px;
+  color: #031b4e;
+  line-height: 120%;
+
+
+
+}
+
+.btn {
+  margin-right: 15px;
+  text-align: center;
+}
+
+
+
+.container-fluid {
+  background-color: #0373fc;
+  padding: 110px;
+
+}
+
+@media only screen and (max-width:767.98px) {
+  .container-fluid {
+    width: 400%;
+  }
+
+  .form-container {
+    width: auto;
+  }
+
+  .mywel {
+    width: auto;
+  }
+}
+
+.mybird {
+  width: 100px;
+  height: 100px;
+  background: #0373fc;
+  position: relative;
+  animation: mybird 5s 1;
+  animation-direction: normal;
+  animation-play-state: running;
+
+}
+
+
+@keyframes mybird {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 850px;
+  }
+}

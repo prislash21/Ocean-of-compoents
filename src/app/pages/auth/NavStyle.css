@@ -1,0 +1,31 @@
+.t1 {
+  color: grey;
+  font-size: 13px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+
+}
+
+.nw {
+
+  background-color: rgb(0, 215, 210);
+  color: rgb(3, 27, 78) !important;
+  cursor: default;
+  font-family: 'Sailec-Medium', 'Helvetica', 'sans-serif';
+  line-height: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  border-radius: 5px;
+  padding: 9px 8px;
+  font-size: 9px !important;
+  margin-right: 10px;
+}
+
+hr.nvstyle {
+  border-top: 5px solid red;
+}
